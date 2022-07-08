@@ -9,7 +9,8 @@ db.version(1).stores({
   todo: '@id',
 })
 
-database.cloud.configure({
+
+db.cloud.configure({
   databaseUrl: 'https://z3zljq0mt.dexie.cloud',
   requireAuth: true,
 })
